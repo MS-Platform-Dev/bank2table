@@ -30,12 +30,10 @@
 
 #-------------------------------------------------------------------------------
 
-
 from datetime import datetime
 import os
 import pandas as pd
 import pdfplumber
-
 
 def ask_target_folder():
     folder = input("Type or paste path to local statement destination folder: ")

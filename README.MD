@@ -1,10 +1,10 @@
 ## bank2table
 *Project skeleton - Currently work in progress...*
 
-Convert text from PDF bank statements into data  
+Convert text from PDF bank statements into data.  
 **Note:** Only text-based PDFs, not graphic document images (e.g. scanned).
 
-(c) 2021. This project is licensed under the terms of the MIT License.
+(c) 2022. This project is licensed under the terms of the MIT License.
 
 ## Description
 Electronic bank statements, for example when downloaded from a bank's online banking site, are usually provided as text-based PDF files.
@@ -14,12 +14,12 @@ Most of the time, Copy&Paste just won't do.
 This tool reads one or more bank statement PDF files and converts the transactional contents into a single flat data table (Excel, comma/tab delimited, etc.) for further processing, for example bank reconciliation of the accounts ledger.
 
 ### Output Table Columns
-- **Global**
+- **Global Details**
   - Path and filename of PDF statement file
   - Statement main bank account number/ID
   - Statement date
   - Statement number/ID (if provided)
-- **Line Items**
+- **Transaction Line Items**
   - Sub-account ID (current/checking account, credit/debit card, investment account, etc.)
   - Transaction (voucher) date
   - Bank processing (reconciliation) date
@@ -30,8 +30,9 @@ This tool reads one or more bank statement PDF files and converts the transactio
   - Combined debit (negative)/credit (positive) amount
   - Details 1 (usually 3rd party, payee, origininator, etc. - can be multiple lines)
   - Details 2 (usually details of transaction and reference(s) - can be multiple lines)
-  - Running balance (if provided)
-  
+  - Running balance (if provided)  
+
+**Note:** Global and line items appear on the same line. That means that each transaction line will repeat its global details, i.e. not "normalized".
 
 ## Development
 
