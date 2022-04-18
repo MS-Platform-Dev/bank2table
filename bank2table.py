@@ -34,6 +34,9 @@ from datetime import datetime
 import os
 import pandas as pd
 import pdfplumber
+import pysimplegui as sg
+import guiforms as gui
+
 
 def ask_target_folder():
     folder = input("Type or paste path to local statement destination folder: ")
@@ -69,6 +72,7 @@ def write data_to_table(data
     pass
 
 def main():
+    gui.gui_banner()
     os.chdir(ask_target_folder())
 
 
