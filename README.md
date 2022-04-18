@@ -40,6 +40,7 @@ This tool reads one or more bank statement PDF files and converts the transactio
 - Process file and extract data
 - Analyse and parse entries
 - Append data to sheet(s)/table(s) and update state in catalog
+- Interact through simple graphical user interface (GUI) forms
 
 ### Future:
 - Automatically check/monitor availability of new statement(s)
