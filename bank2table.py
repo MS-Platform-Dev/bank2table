@@ -23,10 +23,11 @@
 # Licence:      MIT
 
 # Change Log:
-# DATE			VERSION		DESCRIPTION
-# 2022-01-20    0.1 alpha   Removed play code and initial commit
-# 2022-01-24    0.2 alpha   Re-created for new repo. Changed license to MIT.
-#                           Added skeleton functions
+# DATE          VERSION       DESCRIPTION
+# 2022-01-20    0.1  alpha    Removed play code and initial commit
+# 2022-01-24    0.2  alpha    Re-created for new repo. Changed license to MIT.
+#                             Added skeleton functions
+# 2022-04-19    0.3  alpha    Added GUI placeholder
 
 #-------------------------------------------------------------------------------
 
