@@ -44,5 +44,5 @@ This tool reads one or more bank statement PDF files and converts the transactio
 
 ### Future:
 - Automatically check/monitor availability of new statement(s)
-- Connect and collect PDF FILE, apply renaming rules and save locally
+- Connect to online bank account and collect PDF FILE, apply renaming rules and save locally
 
