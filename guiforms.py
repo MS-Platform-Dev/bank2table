@@ -13,6 +13,11 @@ def gui_banner():
     text_input = values[0]
     sg.popup('You entered', text_input)
 
+    
+def gui_settings():
+    # TODO: Add UI to change permanent settings
+    pass
+
 
 def twonums():
     layout = [[sg.Text('Just a number')], 
