@@ -37,12 +37,13 @@ This tool reads one or more bank statement PDF files and converts the transactio
 ## Development
 
 ### Functionality:
-- Process file and extract data
+- Process PDF statement file and extract data
 - Analyse and parse entries
 - Append data to sheet(s)/table(s) and update state in catalog
 - Interact through simple graphical user interface (GUI) forms
 
 ### Future:
 - Automatically check/monitor availability of new statement(s)
-- Connect to online bank account and collect PDF FILE, apply renaming rules and save locally
+- Connect to online bank account and collect PDF file, apply renaming rules and save locally
+- Normalized global and line items in separate tables
 
