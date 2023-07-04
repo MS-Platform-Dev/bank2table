@@ -4,7 +4,7 @@
 Convert text from PDF bank statements into data.  
 **Note:** Only text-based PDFs, not graphic document images (e.g. scanned).
 
-(c) 2022. This project is licensed under the terms of the MIT License.
+(c) 2023. This project is licensed under the terms of the MIT License.
 
 ## Description
 Electronic bank statements, for example when downloaded from a bank's online banking site, are usually provided as text-based PDF files.
