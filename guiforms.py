@@ -36,3 +36,22 @@ def twonums():
     print(values)
     sg.popup('You entered', text_input1 + " " + text_input2)
 
+def threenums():
+    layout = [[sg.Text('Just a number')], 
+              [sg.InputText()],
+              [sg.InputText()],
+              [sg.InputText()],
+              [sg.Submit(), sg.Cancel()]]
+
+    window = sg.Window('Simple Number', layout)
+
+    event, values = window.read()
+    window.close()
+
+    text_input1 = values[0]
+    text_input2 = values[1]
+    text_input3 = values[2]
+    print(event)
+    print(values)
+    sg.popup('You entered', text_input1 + " " + text_input2 + " " + text_input3)
+
