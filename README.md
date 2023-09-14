@@ -13,6 +13,8 @@ Most of the time, Copy&Paste just won't do.
 
 This tool reads one or more bank statement PDF files and converts the transactional contents into a single flat data table (Excel, comma/tab delimited, etc.) for further processing, for example bank reconciliation of the accounts ledger.
 
+**Note:** The initial releases will be limited to bank statements in English (UK and US) only. Other languages are on the roadmap but will not be implemented before the core app is stable - and also depending on actual user demand.
+
 ### Output Table Columns
 - **Global Details**
   - Path and filename of PDF statement file
