@@ -48,4 +48,5 @@ This tool reads one or more bank statement PDF files and converts the transactio
 - Automatically check/monitor availability of new statement(s)
 - Connect to online bank account and collect PDF file, apply renaming rules and save locally
 - Normalized global and line items in separate tables
+- Link to LLM and image recognition to improve parsing
 
