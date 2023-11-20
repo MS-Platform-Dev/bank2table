@@ -28,7 +28,7 @@
 # 2022-01-24    0.2  alpha    Re-created for new repo. Changed license to MIT.
 #                             Added skeleton functions
 # 2022-04-19    0.3  alpha    Added GUI placeholder
-
+# 2023-11-20    0.4  alpha    Versison refresh
 #-------------------------------------------------------------------------------
 
 from datetime import datetime
