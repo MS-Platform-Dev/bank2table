@@ -1,4 +1,5 @@
 # Module to hold the UI forms
+import PySimpleGUI as sg
 
 def gui_banner():
 # Simple welcome page
