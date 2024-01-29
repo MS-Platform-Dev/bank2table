@@ -1,5 +1,5 @@
 ## bank2table
-*Project skeleton - Currently work in progress...*
+*Project skeleton - Currently still work in progress...*
 
 Convert text from PDF bank statements into data.  
 **Note:** Only text-based PDFs, not graphic document images (e.g. scanned).
