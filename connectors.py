@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Copyright © 2024 MonaCompta
+# Copyright ©2024 MonaCompta
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
 # (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
@@ -19,12 +19,13 @@
 # Description:  Library of connectors to different banks
 #
 # Author:       Mike
-# Copyright:    (c) 2024 MonaCompta
+# Copyright:    ©2024 MonaCompta
 # Licence:      MIT
 
 # Change Log:
 # DATE          VERSION       DESCRIPTION
 # 2024-02-02    0.1  alpha    Initial file
+# 2024-10-17    0.2  alpha    Cosmetic changes
 #-------------------------------------------------------------------------------
 
 from datetime import datetime
