@@ -4,7 +4,7 @@
 Convert text from PDF bank statements into data.  
 **Note:** Only text-based PDFs, not graphic document images (e.g. scanned).
 
-(c) 2024. This project is licensed under the terms of the MIT License.
+©2024. This project is licensed under the terms of the MIT License.
 
 ## Description
 Electronic bank statements, for example when downloaded from a bank's online banking site, are usually provided as text-based PDF files.
@@ -39,7 +39,7 @@ This tool reads one or more bank statement PDF files and converts the transactio
 ## Development
 
 ### Functionality:
-- Process PDF statement file and extract data
+- Process downloaded PDF statement file and extract data
 - Analyse and parse entries
 - Append data to sheet(s)/table(s) and update state in catalog
 - Interact through simple graphical user interface (GUI) forms
@@ -49,4 +49,5 @@ This tool reads one or more bank statement PDF files and converts the transactio
 - Connect to online bank account and collect PDF file, apply renaming rules and save locally
 - Normalized global and line items in separate tables
 - Link to LLM and image recognition to improve parsing
+- Separate list of regular, reocurring transactions
 
