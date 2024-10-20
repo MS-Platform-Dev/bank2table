@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Copyright © 2024 MonaCompta
+# Copyright ©2024 MonaCompta
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
 # (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
@@ -19,7 +19,7 @@
 # Description:  Convert PDF bank statements to data tables for processing
 #
 # Author:       Mike
-# Copyright:    (c) 2022 MonaCompta
+# Copyright:    ©2024 MonaCompta
 # Licence:      MIT
 
 # Change Log:
