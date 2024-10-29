@@ -71,7 +71,7 @@ def extract_pdf_text(file):
 def convert_text_to_data(text):
     pass
 
-def write data_to_table(data
+def write data_to_table(data):
     pass
 
 def main():
